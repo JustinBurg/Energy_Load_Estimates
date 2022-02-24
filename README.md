@@ -1,8 +1,11 @@
 # Energy_Load_Estimates
 
 **Overview:**
-The goal of this challenge is to build a regression model and deploy it with docker. 
-The dataset you will use for the challenge is available at https://archive.ics.uci.edu/ml/datasets/Energy+efficiency. 
+
+Example of building a regression model and deploying it with docker.
+
+The dataset is available at https://archive.ics.uci.edu/ml/datasets/Energy+efficiency. 
+
 You should be able to run the docker image and then curl the container by sending json containing the 
 attributes of a new building and get a json response with the heating and cooling loads 
 predicted by your trained model. 
